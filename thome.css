@@ -1,0 +1,92 @@
+/* thome.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+ font-size: xx-large;
+  
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: lightblue;
+}
+
+.featured {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h3, p {
+  text-align: center;
+  color: #333;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.arrow {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #333;
+}
+
+.arrow:hover {
+  color: #3498db;
+}
+.search-bar{
+  margin-top: 15px;
+}

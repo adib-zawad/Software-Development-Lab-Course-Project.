@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+  font-size: larger;
+}
+
+.h2 {
+  margin-top: 300px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+}
+.form{
+  margin-top: 300px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+position:fixed;
+  border: 1px solid #ccc;
+  background-color: lightgray;
+}
+

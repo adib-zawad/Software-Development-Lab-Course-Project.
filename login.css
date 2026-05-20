@@ -1,0 +1,87 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow the flex container to wrap */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.form {
+  flex: 1;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.h2 {
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  height: 45px;
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+ 
+
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+  height: 45px;
+  font-size: large;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+a:hover {
+  color:navy;
+  background-color: white;
+}
+
+.cover {
+  flex: 1;
+  background: url('login-pic.avif') center/cover no-repeat;
+  height: 80vh; /* Ensure the cover image takes up the full height of the viewport */
+}

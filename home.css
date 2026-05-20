@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+header nav a {
+  margin-top: 10px;
+ 
+    font-size: x-large;
+  
+  
+}
+
+nav a:hover{
+  background-color: grey;
+  /* color: black; */
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style the sections */
+.featured, .latest {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.featured h2, .latest h2 {
+  font-size: 24px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+  }
+
+  header nav {
+      margin-top: 20px;
+  }
+
+  header a {
+      display: block;
+      margin: 10px 0;
+  }
+}
+
+/* Add more styles as needed */
+.search-bar{
+  height: 50px;
+}

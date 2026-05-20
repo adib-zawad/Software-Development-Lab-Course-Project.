@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: right top;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: large;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.wrapper {
+  display: flex;
+ 
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 40%;
+  background-color: #fff;
+  padding: 10;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1;
+  font-size: large;
+  margin: 4px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 8px ;
+  transition: background-color 0.3s ease;
+  font-size: larger;
+}
+.btn:hover{
+  background-color: rgb(24, 160, 24);
+}
+
+button:hover {
+  background-color: red;
+}
+
+.cover {
+  background: url('admin-login-pic.jpg') center/cover no-repeat;
+  flex: 1;
+  min-width: 60%; /* Ensure it covers at least 50% of the width */
+  height: 85vh; /* Ensure the cover image takes up the full height of the viewport */
+  z-index: 0;
+}
